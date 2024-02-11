@@ -1,0 +1,6 @@
+@ASPCoreWebAPICRUD_HostAddress = http://localhost:5216
+
+GET {{ASPCoreWebAPICRUD_HostAddress}}/StudentAPI/
+Accept: application/json
+
+###
