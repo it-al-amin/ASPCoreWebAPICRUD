@@ -4,7 +4,7 @@ Below see this .
 
 2.Create database and tables
 3.In->Tools-> Nuget Packet Manager -> open console->write below code: At first Create A Models folder this your project.Then run below code in command:
-Scaffold -DbContext "server=serverName; database=DatabaseName; trusted-coonection=True" Microsoft.EntityFrameworkCore.SqlServer-OutputDir Models
+Scaffold-DbContext "server=serverName; database=DatabaseName; trusted-coonection=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 4.protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { remove inside things} in DbContext file
 5.Add 3 line in Program.cs file:
 // to register sql server for connectionString 
