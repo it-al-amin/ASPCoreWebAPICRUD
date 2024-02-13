@@ -1,4 +1,7 @@
 # ASPCoreWebAPICRUD
+#API SERVER
+I have created asp.net web api CRUD operations by using EntityFramework and Sql server
+This is mainly API server .
 1. I have done it database first approach
 Below see this .
 
